@@ -1,28 +1,28 @@
 # Dotfiles and scripts I use on dev machines
 
-> Based off https://github.com/haacked/dotfiles
+> Based off https://github.com/wicksipedia/dotfiles
 
 ## Setup
 
 1. Install the tools
-   ```iwr -useb https://raw.githubusercontent.com/wicksipedia/dotfiles/main/setup-choco.ps1 | iex```
+   `iwr -useb https://raw.githubusercontent.com/danielmackay/dotfiles/main/setup-choco.ps1 | iex`
 2. Clone repo
-   ```git clone https://github.com/wicksipedia/dotfiles.git```
+   `git clone https://github.com/danielmackay/dotfiles.git`
 3. Customise Powershell & Windows Terminal
-   ```.\setup-shell.ps1```
+   `.\setup-shell.ps1`
 4. Reload profile
-   ```. $profile```
+   `. $profile`
 
 ## Update
 
 1. Pull latest
-   ```git pull```
+   `git pull`
 2. Reinstall the tools
-   ```.\setup-choco.ps1```
+   `.\setup-choco.ps1`
 3. Customise Powershell & Windows Terminal
-   ```.\setup-shell.ps1```
+   `.\setup-shell.ps1`
 4. Reload profile
-   ```. $profile```
+   `. $profile`
 
 ## What does this add?
 
