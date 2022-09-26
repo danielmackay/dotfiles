@@ -18,9 +18,6 @@ param
     [string]$installOther
 )
 
-# Winget comes pre-installed on windows 11
-# https://learn.microsoft.com/en-us/windows/package-manager/winget/
-
 # Configuration
 
 $minimalTools = @(
@@ -42,7 +39,9 @@ $devTools = @(
 	'OpenJS.NodeJS.LTS',
 	'RicoSuter.NSwagStudio',
 	'Postman.Postman',
-	'Microsoft.VisualStudioCode'
+	'Microsoft.VisualStudioCode',
+	'ScooterSoftware.BeyondCompare4',
+	'Microsoft.AzureDataStudio'
 )
 
 # $paidTools = @(
@@ -55,9 +54,12 @@ $otherTools = @(
 	'Logitech.Options',
 	'Microsoft.Teams',
 	#paint.net (TODO)
-	'Bitwarden.Bitwarden'
+	'Bitwarden.Bitwarden',
+	'elvirbrk.notehighlight2016'
 )
 
+# Winget comes pre-installed on windows 11
+# https://learn.microsoft.com/en-us/windows/package-manager/winget/
 function WingetInstall([string]$tool){
 	& winget install --id $tool --source winget --silent --accept-package-agreements --accept-source-agreements
 }
@@ -97,6 +99,9 @@ if ($installDev.ToLower() -eq 'y') {
 	Foreach ($tool in $devTools) {
 		WingetInstall($tool)
 	}
+
+	Write-Host "➡️ Installing WSL2 Ubuntu"
+	& wsl --install -d Ubuntu
 }
 else {
 	Write-Host "⏭ Skipping dev tools"
