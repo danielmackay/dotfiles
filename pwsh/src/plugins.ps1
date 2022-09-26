@@ -7,3 +7,6 @@ Import-Module PSReadLine
 Set-PSReadLineOption -PredictionSource History
 #Set-PSReadLineOption -PredictionViewStyle ListView
 Set-PSReadLineOption -EditMode Windows
+
+# Azure module
+Install-Module -Name Az -Scope CurrentUser -Repository PSGallery
