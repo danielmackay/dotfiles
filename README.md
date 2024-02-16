@@ -90,6 +90,7 @@ Other tools:
 
 - Microsoft Teams
 - Logitech Options
+- Notion
 
 Customisations:
 
