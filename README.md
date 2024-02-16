@@ -67,6 +67,7 @@ Minimal tools:
 - oh-my-posh
 - Powershell Core
 - VSCode
+- Working Hours (Time Tracker)
 
 Dev tools:
 

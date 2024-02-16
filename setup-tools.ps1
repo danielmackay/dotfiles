@@ -28,6 +28,7 @@ $minimalTools = @(
     #'Microsoft.PowerToys',
 	'Microsoft.Powershell'
 	'Microsoft.VisualStudioCode',
+	'9MV51B301WFD' # Working Hours (Time Tracker)
 )
 
 $devTools = @(
