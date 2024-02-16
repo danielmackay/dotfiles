@@ -81,6 +81,7 @@ Dev tools:
 - JetBrains Toolbox
 - JetBrains Rider
 - Visual Studio 2022
+- SQL Server Developer 2022
 
 Other tools:
 

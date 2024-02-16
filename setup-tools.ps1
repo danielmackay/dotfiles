@@ -44,7 +44,8 @@ $devTools = @(
 	'ScooterSoftware.BeyondCompare4',
 	'JetBrains.Toolbox',
 	'JetBrains.Rider',
-	'Microsoft.VisualStudio.2022'
+	'Microsoft.VisualStudio.2022.Enterprise',
+	'Microsoft.SQLServer.2022.Developer'
 	#'Microsoft.AzureDataStudio'
 )
 
@@ -134,4 +135,3 @@ else {
 }
 
 Write-Host "✅ Tool setup complete"
-
