@@ -62,19 +62,26 @@ If you don't want to install a particular item - feel free to comment the line o
 
 Installs:
 
-Free tools:
+Minimal tools:
+- Git
+- oh-my-posh
+- Powershell Core
+- VSCode
+
+Dev tools:
 
 - Azure CLI
 - Docker
-- Git
 - GitHub CLI
 - Insomnia
-- oh-my-posh
-- Logitech Options
-- Microsoft Teams
 - Nodejs LTS
-- Powershell Core
-- VSCode
+- Beyond Compare 4
+- JetBrains Toolbox
+- JetBrains Rider
+
+Other tools:
+- Microsoft Teams
+- Logitech Options
 
 Customisations:
 

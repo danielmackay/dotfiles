@@ -27,6 +27,7 @@ $minimalTools = @(
 	#'Notepad++.Notepad++',
     #'Microsoft.PowerToys',
 	'Microsoft.Powershell'
+	'Microsoft.VisualStudioCode',
 )
 
 $devTools = @(
@@ -39,8 +40,9 @@ $devTools = @(
 	'OpenJS.NodeJS.LTS',
 	#'RicoSuter.NSwagStudio',
 	#'Postman.Postman',
-	'Microsoft.VisualStudioCode',
-	'ScooterSoftware.BeyondCompare4'
+	'ScooterSoftware.BeyondCompare4',
+	'JetBrains.Toolbox',
+	'JetBrains.Rider'
 	#'Microsoft.AzureDataStudio'
 )
 
