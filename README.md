@@ -84,6 +84,7 @@ Dev tools:
 - Visual Studio 2022
 - SQL Server Developer 2022
 - SQL Server Management Studio
+- .NET 8 SDK
 
 Other tools:
 

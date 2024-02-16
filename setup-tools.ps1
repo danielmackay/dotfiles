@@ -47,7 +47,8 @@ $devTools = @(
 	'JetBrains.Rider',
 	'Microsoft.VisualStudio.2022.Enterprise',
 	'Microsoft.SQLServer.2022.Developer',
-	'Microsoft.SQLServerManagementStudio'
+	'Microsoft.SQLServerManagementStudio',
+	'Microsoft.DotNet.SDK.8'
 	#'Microsoft.AzureDataStudio'
 )
 
