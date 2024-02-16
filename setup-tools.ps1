@@ -40,7 +40,7 @@ $devTools = @(
 	#'RicoSuter.NSwagStudio',
 	#'Postman.Postman',
 	'Microsoft.VisualStudioCode',
-	'ScooterSoftware.BeyondCompare4',
+	'ScooterSoftware.BeyondCompare4'
 	#'Microsoft.AzureDataStudio'
 )
 
@@ -52,7 +52,7 @@ $devTools = @(
 
 $otherTools = @(
 	'Logitech.Options',
-	'Microsoft.Teams',
+	'Microsoft.Teams'
 	#paint.net (TODO)
 	#'Bitwarden.Bitwarden',
 	#'elvirbrk.notehighlight2016'
