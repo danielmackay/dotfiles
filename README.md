@@ -6,18 +6,17 @@
 
 You'll need the latest version of winget.  This can be updated via the Microsoft Store.
 
-1. Clone repo
+1. Install the tools
+
+   ```bash
+   iwr -useb https://raw.githubusercontent.com/danielmackay/dotfiles/main/setup-tools.ps1 | iex
+   ```  
+
+2. Clone repo
 
    ```bash
    git clone https://github.com/danielmackay/dotfiles.git
    ```
-   
-
-2. Install the tools
-
-   ```bash
-   .\setup-tools.ps1
-   ```   
 
 3. Customise Powershell & Windows Terminal
 
