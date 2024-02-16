@@ -39,6 +39,7 @@ $devTools = @(
 	'Insomnia.Insomnia',
 	#'LINQPad.LINQPad.7',
 	'OpenJS.NodeJS.LTS',
+	'CoreyButler.NVMforWindows',
 	#'RicoSuter.NSwagStudio',
 	#'Postman.Postman',
 	'ScooterSoftware.BeyondCompare4',

@@ -77,6 +77,7 @@ Dev tools:
 - GitHub CLI
 - Insomnia
 - Nodejs LTS
+- NVM
 - Beyond Compare 4
 - JetBrains Toolbox
 - JetBrains Rider
