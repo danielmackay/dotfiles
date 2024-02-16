@@ -43,7 +43,8 @@ $devTools = @(
 	#'Postman.Postman',
 	'ScooterSoftware.BeyondCompare4',
 	'JetBrains.Toolbox',
-	'JetBrains.Rider'
+	'JetBrains.Rider',
+	'Microsoft.VisualStudio.2022'
 	#'Microsoft.AzureDataStudio'
 )
 

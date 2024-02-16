@@ -4,13 +4,13 @@
 
 ## Setup
 
-You'll need the latest version of winget.  This can be updated via the Microsoft Store.
+You'll need the latest version of winget. This can be updated via the Microsoft Store.
 
 1. Install the tools
 
    ```bash
    iwr -useb https://raw.githubusercontent.com/danielmackay/dotfiles/main/setup-tools.ps1 | iex
-   ```  
+   ```
 
 2. Clone repo
 
@@ -23,13 +23,12 @@ You'll need the latest version of winget.  This can be updated via the Microsoft
    ```bash
    .\setup-shell.ps1
    ```
-   
+
 4. Reload profile
 
    ```bash
    . $profile
    ```
-
 
 ## Update
 
@@ -38,6 +37,7 @@ You'll need the latest version of winget.  This can be updated via the Microsoft
    ```bash
    git pull
    ```
+
 2. Reinstall the tools
 
    ```bash
@@ -63,6 +63,7 @@ If you don't want to install a particular item - feel free to comment the line o
 Installs:
 
 Minimal tools:
+
 - Git
 - oh-my-posh
 - Powershell Core
@@ -79,8 +80,10 @@ Dev tools:
 - Beyond Compare 4
 - JetBrains Toolbox
 - JetBrains Rider
+- Visual Studio 2022
 
 Other tools:
+
 - Microsoft Teams
 - Logitech Options
 
