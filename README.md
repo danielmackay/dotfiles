@@ -4,6 +4,8 @@
 
 ## Setup
 
+You'll need the latest version of winget.  This can be updated via the Microsoft Store.
+
 1. Install the tools
    `iwr -useb https://raw.githubusercontent.com/danielmackay/dotfiles/main/setup-tools.ps1 | iex`
 2. Clone repo
@@ -32,21 +34,16 @@ Installs:
 
 Free tools:
 
-- 7zip
 - Azure CLI
 - Docker
 - Git
 - GitHub CLI
 - Insomnia
 - oh-my-posh
-- Linqpad
 - Logitech Options
 - Microsoft Teams
 - Nodejs LTS
-- Notepad++
-- NSwag studio
-- Postman
-- Powershell 7
+- Powershell Core
 - VSCode
 
 Paid tools: (optional)

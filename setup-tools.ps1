@@ -37,11 +37,11 @@ $devTools = @(
 	'Insomnia.Insomnia',
 	#'LINQPad.LINQPad.7',
 	'OpenJS.NodeJS.LTS',
-	'RicoSuter.NSwagStudio',
-	'Postman.Postman',
+	#'RicoSuter.NSwagStudio',
+	#'Postman.Postman',
 	'Microsoft.VisualStudioCode',
 	'ScooterSoftware.BeyondCompare4',
-	'Microsoft.AzureDataStudio'
+	#'Microsoft.AzureDataStudio'
 )
 
 # $paidTools = @(
@@ -54,8 +54,8 @@ $otherTools = @(
 	'Logitech.Options',
 	'Microsoft.Teams',
 	#paint.net (TODO)
-	'Bitwarden.Bitwarden',
-	'elvirbrk.notehighlight2016'
+	#'Bitwarden.Bitwarden',
+	#'elvirbrk.notehighlight2016'
 )
 
 # Winget comes pre-installed on windows 11
