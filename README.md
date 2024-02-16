@@ -6,25 +6,56 @@
 
 You'll need the latest version of winget.  This can be updated via the Microsoft Store.
 
-1. Install the tools
-   `iwr -useb https://raw.githubusercontent.com/danielmackay/dotfiles/main/setup-tools.ps1 | iex`
-2. Clone repo
-   `git clone https://github.com/danielmackay/dotfiles.git`
+1. Clone repo
+
+   ```bash
+   git clone https://github.com/danielmackay/dotfiles.git
+   ```
+   
+
+2. Install the tools
+
+   ```bash
+   .\setup-tools.ps1
+   ```   
+
 3. Customise Powershell & Windows Terminal
-   `.\setup-shell.ps1`
+
+   ```bash
+   .\setup-shell.ps1
+   ```
+   
 4. Reload profile
-   `. $profile`
+
+   ```bash
+   . $profile
+   ```
+
 
 ## Update
 
 1. Pull latest
-   `git pull`
+
+   ```bash
+   git pull
+   ```
 2. Reinstall the tools
-   `.\setup-tools.ps1`
+
+   ```bash
+   .\setup-tools.ps1
+   ```
+
 3. Customise Powershell & Windows Terminal
-   `.\setup-shell.ps1`
+
+   ```bash
+   .\setup-shell.ps1
+   ```
+
 4. Reload profile
-   `. $profile`
+
+   ```bash
+   . $profile
+   ```
 
 ## What does this add?
 
@@ -45,12 +76,6 @@ Free tools:
 - Nodejs LTS
 - Powershell Core
 - VSCode
-
-Paid tools: (optional)
-
-- Office365 ProPlus
-- Snagit
-- Visual Studio 2019 Enterprise
 
 Customisations:
 
