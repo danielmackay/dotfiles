@@ -91,6 +91,7 @@ Other tools:
 - Microsoft Teams
 - Logitech Options
 - Notion
+- WhatsApp
 
 Customisations:
 
