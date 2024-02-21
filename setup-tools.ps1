@@ -50,6 +50,7 @@ $devTools = @(
 	'Microsoft.SQLServer.2022.Developer',
 	'Microsoft.SQLServerManagementStudio',
 	'Microsoft.DotNet.SDK.8'
+	'Microsoft.NuGet'
 	#'Microsoft.AzureDataStudio'
 )
 

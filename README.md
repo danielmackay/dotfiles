@@ -86,6 +86,7 @@ Dev tools:
 - SQL Server Developer 2022
 - SQL Server Management Studio
 - .NET 8 SDK
+- Nuget CLI
 
 Other tools:
 
