@@ -69,6 +69,7 @@ Minimal tools:
 - Powershell Core
 - VSCode
 - Working Hours (Time Tracker)
+- Flameshot (screenshots)
 
 Dev tools:
 
