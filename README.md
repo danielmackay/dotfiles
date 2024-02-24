@@ -94,6 +94,7 @@ Other tools:
 - Logitech Options
 - Notion
 - WhatsApp
+- Philips Hue Sync
 
 Customisations:
 

@@ -64,7 +64,8 @@ $otherTools = @(
 	'Logitech.Options',
 	'Microsoft.Teams',
 	'Notion.Notion'
-    'WhatsApp.WhatsApp'
+    'WhatsApp.WhatsApp',
+	'Philips.HueSync'
 	#paint.net (TODO)
 	#'Bitwarden.Bitwarden',
 	#'elvirbrk.notehighlight2016'
