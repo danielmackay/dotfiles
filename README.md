@@ -92,6 +92,7 @@ Other tools:
 
 - Microsoft Teams
 - Logitech Options
+- Logitech GHUB
 - Notion
 - WhatsApp
 - Philips Hue Sync

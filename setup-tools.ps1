@@ -62,6 +62,7 @@ $devTools = @(
 
 $otherTools = @(
 	'Logitech.Options',
+	'Logitech.GHUB',
 	'Microsoft.Teams',
 	'Notion.Notion'
     'WhatsApp.WhatsApp',
